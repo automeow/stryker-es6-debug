@@ -1,0 +1,25 @@
+{
+  "main": "src/app.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^22.1.4",
+    "react-scripts": "^1.1.0",
+    "stryker": "^0.19.1",
+    "stryker-api": "^0.13.0",
+    "stryker-babel-transpiler": "^0.3.1",
+    "stryker-html-reporter": "^0.12.1",
+    "stryker-javascript-mutator": "^0.3.5",
+    "stryker-jest-runner": "^0.4.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
+  "scripts": {
+    "test:mutate": "node_modules/.bin/stryker run"
+  }
+}
